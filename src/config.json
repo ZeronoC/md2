@@ -1,0 +1,18 @@
+{
+	"owner": ["628xxxx@s.whatsapp.net"],
+	"api": {
+		"masgi": "https://masgimenz.my.id"
+	},
+	"autoReads": true,
+	"footer": "namabot",
+	"session_id": "",
+	"stickerCategories": {
+		"love": ["💖", "💘", "💝"],
+        "happy": ["😀", "😃", "😄", "😁", "😆"],
+        "sad": ["☹", "😣", "😖", "😫", "😩", "😢", "😭"],
+        "angry": ["🤬", "😡", "😠", "🙄", "👿"],
+        "greet": ["👋"],
+        "celebrate": ["🎉", "🎁", "🎈"]
+	},
+	"quot": "```"
+}
