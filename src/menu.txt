@@ -1,14 +1,14 @@
 *Social Media Downloader Bot*
 [ kirimkan link post dari social media yang ingin di download, dan tunggu bot memproses ] - contoh : https://www.instagram.com/reel/CXg9cuaDuNq
 
-*Supported links* :
+*LINK YANG DIDUKUNG* :
 *>* Facebook [support public groups]
 *>* TikTok [No Watermark]
 *>* Instagram <stories | highlights | post | reel | tv>
 *>* Pinterest <photo | video>
 *>* Twitter <photo | video>
 
-*CMD :*
+*MENU :*
 ▶ prefix sticker <reply/send image or video>
 ▶ prefix yt <url>
 ▶ prefix yts <query>
@@ -17,4 +17,4 @@
 ▶ prefix play <judul>
 ▶ prefix mediafire <url>
 
-*Note :* Jika menemukan bug, atau terdapat fitur bot yang error. jangan sungkan lapor ke owner agar segera diperbaiki.
+*Note :* Jika Bot tidak merespon dalam 5 menit, silahkan kirim ulang request mu.
