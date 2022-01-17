@@ -219,12 +219,11 @@ const start = async () => {
             if (cmd == 'help' || cmd == 'menu') {
                 await typing(from)
                 const buttonsDefault = [
-                    { urlButton: { displayText: `🌐 Rest api`, url: `https://masgimenz.my.id` } },
-                    { urlButton: { displayText: `💌 Telegram Bot`, url: `https://t.me/tikdl_bot` } },
+                    { urlButton: { displayText: `Chat Admin`, url: `https://wa.me/6289614412045?text=Halooo` } },
                     { quickReplyButton: { displayText: `☎ Owner`, id: `${prefix}owner` } },
                 ]
 
-                let text = `Hi *${pushname}* 🤗\n\n*'${package.name}'* ~> coded by ${package.author}\n\n` +
+                let text = `Hi *${pushname}* 🤗\n\n` +
                     `⌚️ : ${moment().format('HH:mm:ss')}\n\n` +
                     `${fs.readFileSync('./src/menu.txt', 'utf-8').replace(/prefix /gim, prefix)}`
                 client.sendMessage(from, { text, footer, templateButtons: buttonsDefault, headerType: 3 }, { quoted: m })
@@ -235,10 +234,9 @@ const start = async () => {
                 owner.map(async (v) => await sendContact(m.chat, v.split('@s.whatsapp.net')[0], package.author, m))
                 await delay(2000)
                 const buttonsDefault = [
-                    { urlButton: { displayText: `🌐 Web`, url: `https://masgimenz.my.id` } },
-                    { urlButton: { displayText: `📸 Instagram`, url: `https://www.instagram.com/gimenz.id` } },
-                    { urlButton: { displayText: `🐈 Github`, url: `https://github.com/Gimenz` } },
-                    { urlButton: { displayText: `🎨 TikTok`, url: `https://www.tiktok.com/@gh0stp0w3r` } },
+                    { urlButton: { displayText: `🌐 Web`, url: `https://wa.me/6289614412045` } },
+                    { urlButton: { displayText: `📸 Instagram`, url: `https://www.instagram.com/iy.yan_` } },
+                    { urlButton: { displayText: `🐈 Github`, url: `https://github.com/ZeronoC` } },
                 ]
                 client.sendMessage(from, { text: `Social Media`, footer, templateButtons: buttonsDefault }, { quoted: m })
             }
