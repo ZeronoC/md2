@@ -1,10 +1,10 @@
 {
-	"owner": ["628xxxx@s.whatsapp.net"],
+	"owner": ["6289614412045@s.whatsapp.net"],
 	"api": {
 		"masgi": "https://masgimenz.my.id"
 	},
 	"autoReads": true,
-	"footer": "namabot",
+	"footer": "ZeroneBot@iyyan",
 	"session_id": "",
 	"stickerCategories": {
 		"love": ["💖", "💘", "💝"],
